@@ -18,8 +18,7 @@ class cells(object):
         del num
         del layers
 
-        for i in range(self.each_lay):
-            weights = [randomNumber for i in range(self.each_layer)]
+        weights = [randomNumber for i in range(self.each_layer)]
         
         for i in range(self.layers):
             self.neurons.append([]) #adds a list
